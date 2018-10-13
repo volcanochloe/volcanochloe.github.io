@@ -1,0 +1,637 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content=", hexo-theme-matery">
+    <meta name="description" content="生活札记 知识输出 对万物万事的思考记录 技能分享 寻觅火树银花">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>火山口有簇新枝誒</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+</head>
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/volcanochloe.ico" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">火山口有簇新枝誒</span>
+                    </a>
+                </div>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>Index</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>Tags</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>Categories</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>Archives</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>About</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/volcanochloe.ico" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">火山口有簇新枝誒</div>
+        <div class="logo-desc">
+            
+            生活札记 知识输出 对万物万事的思考记录 技能分享 寻觅火树银花
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                Index
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                Tags
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                Categories
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                Archives
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                About
+            </a>
+        </li>
+        
+        
+    </ul>
+
+    <div class="social-link"><a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:chenjiayin1990@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+</div>
+
+            </div>
+        </div>
+
+        
+    </nav>
+</header>
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/4.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        黑色生命力
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="article-tag">
+                
+                <a href="/tags/人生荆棘/" target="_blank">
+                    <span class="chip bg-color">人生荆棘</span>
+                </a>
+                
+            </div>
+            
+            <div class="post-info">
+                
+                <span class="post-cate">
+                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                    
+                    <a href="/categories/孩童般郑重的生活/" class="post-category" target="_blank">
+                        孩童般郑重的生活
+                    </a>
+                    
+                </span>
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2018-07-02
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>已剪辑自: <a href="https://mp.weixin.qq.com/s/MbF0Y-6wU4B9IfuoRmB02Q" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/MbF0Y-6wU4B9IfuoRmB02Q</a></p>
+<p><img src="file:///C:/Users/94537/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image001.gif" alt="img"></p>
+<p>  今年KY小姐姐们决心要有更多的烟火气，开始努力刷综艺（事业心烟火气）。结果被歌手里的张韶涵击中了。《阿刁》是今年听过最感人的流行歌，今天还在单曲循环。</p>
+<p> 节目中张韶涵谈到歌里的女孩让她联想到自己，于是特意去搜了搜她的故事，觉得张韶涵能唱好这首歌是有原因的：</p>
+<p> 据媒体报道，小时候因为爸爸身体不好，常年无法工作，张韶涵就边上学边打工。后来她成为当红的偶像剧女主，她的歌也广为传唱（本科校长曾表演唱过她的“隐形的翅膀”）。后来她与母亲“反目成仇”，在她治疗心脏病期间，母亲拿走了她所有的积蓄，并公开指证她吸毒、酗酒，她的事业也一落千丈。</p>
+<p> 直到她在歌手中用《阿刁》一鸣惊人，人们看到这些年的时间和苦难在她身上的结晶：一种很纯粹、很本真的力量。</p>
+<p><img src="file:///C:/Users/94537/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image002.jpg" alt="你 罡  自 由 的 鸟 "></p>
+<p>这让我想到，明尼苏达大学发展心理学家、临床医师Norman Garmezy，在他四十余年的研究中，见了数以千计的孩子。其中有一个男孩，得到了他持续多年的关注。</p>
+<p> 他认识这个男孩时，他9岁，有一个酗酒的母亲，没有父亲，吃不饱饭。尽管如此，长大过程中，男孩始终在学业、人际、心理健康方面都表现良好。</p>
+<p> 这个男孩属于一群特别的孩子。——在很多年的时间里，Garmezy寻找那些处在糟糕的处境中，有很大概率成为问题少年，但实际却成长得令人骄傲的孩子。Garmezy说，他们“尽管经历过异常困难的处境，却不断走向成功、不断获得超越大多数人的优秀”。</p>
+<p> 今天KY想跟大家聊聊，张韶涵和这些孩子身上具有的这种力量——经历过创伤而最终度过的人身上会表现出来这种力量，一种穿越黑暗，在挣扎与恐惧之间迸发出来的巨大能量。为了方便大家理解，我们把它叫做“黑色生命力”。</p>
+<p>每个人身上都有一种生命力，支撑着我们迎接每一天的开始。但“黑色生命力”不同，我们用它特指那些，经受过巨大的压力、逆境和/或创伤，并渡过、幸存（survive）下来的人，最终展现出来的一种力量。</p>
+<p>它主要包含三个层面：</p>
+<p> <strong>1.情绪能力</strong></p>
+<p> 这种情绪的能力包括两个层面：</p>
+<ul>
+<li>一个层面是情绪的广度，也就是说，这些经历过创伤的人，除了日常的喜怒哀乐之外，他们体验过极端负面的情绪，因此比一般人拥有更复杂、更广泛的情绪体验；他们能感受和体会的情绪是更多样的、范围更宽广的。</li>
+</ul>
+<ul>
+<li>另一个层面是情绪的深度——相应的情绪理解能力与处理能力。在经历创伤而幸存的过程里，他们曾与自己极端的负面情绪做过正面交锋。在这个过程中，学会了如何与自己悲痛、失望等负面情绪同在，虽然负面情绪总是令人不快，但他们学会了不在负面情绪前手足无措。</li>
+</ul>
+<p>他们熟悉痛苦，虽然一切仍然不会变得容易，但他们的确比没有经历过重大负面经历的人更懂得如何处理痛苦。</p>
+<p>除此之外，经历过创伤的人也更能共情他人的情绪。Arous等人（2016）对经历过童年创伤的人（遭受性虐待、情感忽视等）的研究发现，痛苦的人比快乐的人共情能力更强，更能真切地对他人的情绪感同身受。这可能是这些自己曾深刻体会过痛苦的人，对他人痛苦的一种“条件反射式”的敏感。</p>
+<p><strong>2.对复杂的认知和理解力</strong></p>
+<p> 经历过创伤的人，有一种对复杂现实的认知和理解能力。他们曾经经历过极端的状况，对真实世界的复杂有着高于一般人的认知，比如“本该是世界上最疼爱我的人，却做出了伤害我的事”，“本该相互坦诚的人，却相互欺瞒”等等。因此他们相对更少会对复杂感到意外。</p>
+<p> 第一次面对复杂、难以理解、逻辑上不一致的现实，总是最难的。</p>
+<p> 可以说，他们在穿过创伤的过程中，承受了这种不一致。他们也曾感到绝望或愤怒，但最终他们的生命消化了这种不一致和它所承载的情绪，形成了他们对复杂的识别与了解，他们也能以此为世界的复杂做好准备。</p>
+<p> 同时，这也让他们更容易从不同的视角看待真实。他们可能比一般人更清楚地了解：世界上没有黑白分明的“好”、“坏”。实证研究也的确发现，经历过童年创伤的人，换位思考的能力更强——更能从不同人的角度出发去思考问题（Arous, et al., 2016）。有时候这对他们来说甚至不是一种意愿：他们只是更能够看见，非常自然地看见。因为曾经极端的痛苦曾经逼迫他们不得不去揣摩他人，非常困难地去解读伤害自己的人和事件——他们在这个过程中得到了锻炼。</p>
+<p> <strong>3.一种得以应对世事变迁的人生哲学</strong></p>
+<p> 经历过创伤的人还会获得一种人生哲学，又被心理学家Tedeschi（2004）称为“智慧”（wisdom），它包含4个层面，自我、他人、世界观，以及行动准则。</p>
+<p> 首先，个体会变得更加“自我依靠”。在度过创伤的日子里，他们体会到了自己比想象中更强大，更相信自己是可以依靠的，这种自我效能感与价值感的提升会成为支撑Ta度过人生中更多坎坷与挑战的力量。</p>
+<p> 同时，他们也会变得更珍惜关系。在他们度过创伤的日子里，不论是因为曾经寻求过或获得过的他人帮助与支持，还是曾经失去过重要的人，都让他们更懂得感恩，珍惜人与人之间的关系与链接。张韶涵也坦言，人生的低谷期让她更加珍惜身边真正爱她的朋友和家人。</p>
+<p> 另外，经历过创伤，也让他们不再一味对世界抱有美好幻想，而是对人生的艰难与坎坷有了更多的心理准备。尽管这在外人看来，或许有些悲观，但却令他们拥有了一种面对世事变迁的平常心，我还看到张韶涵在一个访谈里说，“直到现在我才了解，原来人生就是这么无常”。她真的是被生活的苦赋予了深度的一个明星。</p>
+<p> 拥有黑色生命力的人，对风险的“忍受”能力也会变得更高。也正因为如此，相较而言，在这些拥有黑色生命力的人生中，也有更多的机会/可能发生一些不寻常的事。</p>
+<p>尽管，黑色生命力“属于”经历过创伤的人，但并不是只要经历过创伤，人就可以获得这种黑色生命力。</p>
+<p> 当创伤发生，人们会遇到三个层面的挑战，在任何一个挑战上失败，黑色生命力都不会发生。</p>
+<ul>
+<li><p>对情绪管理的挑战：创伤发生后，人会有一些应激性的极端负面情绪，会经历剧烈的情绪波动；</p>
+</li>
+<li><p>对生活叙事的挑战：当面对创伤的时候，人们也需要给自己一个合理的解释——“为什么是我”，“我遭遇的为什么是这些”，“父母为什么这样对我等等”，人们原有的理解自己人生的方式会受到挑战，需要一套合理的说辞，一种新的讲述自己人生故事的方式（即新的生活叙事）；</p>
+</li>
+<li><p>对人生图示与信念的挑战：这指的是，创伤会挑战我们对世界和人性的基本认知，会让我们怀疑人生（比如，父母不应该就是对孩子关心呵护的吗？他/她怎么忍心下这么重的手打我？）。</p>
+<p>有些人会长时间地想要压抑心中内疚、自责、沮丧、羞耻、自我怀疑、绝望等情绪，也放任自己反复陷入“反刍思考”之中（rumination），比如他们会不断地去想“是不是我当时做错了什么，父母才会这样暴力对待我？”，“是不是如果我努力变得更优秀，他们就会对我更好？”等等，使得自己长久地活在过去的创伤之中。</p>
+</li>
+</ul>
+<hr>
+<p>而另一些人度过创伤的过程则是：</p>
+<p> <strong>1.接纳自己那些极端负面情绪的存在</strong></p>
+<p> 比起压抑情绪，这些人选择承认自己在面对创伤时所感受到的种种情绪，允许它们存在。正如张韶涵在采访中所说，“如果说不痛，肯定是假的”。她选择去承认和面对这些情绪，找到应对的方法（比如找到她朋友和弟弟妹妹的陪伴和支持）。</p>
+<p><strong>2.积极的认知重评（positive cognitive reappraisal）</strong></p>
+<p>当情绪被允许存在之后，他们开始展开一种叫做 “认知重评”的过程，系统地分析这件事对自身的影响。他们会在不是自欺欺人的前提下，努力倾向于以更积极的方式去叙述创伤，比如更着重去讲述经历了这件事，自己获得了什么。但不会否认这件事本身的悲剧性。</p>
+<p> 认知上的改变，会让人们对创伤的情绪感受发生积极的改变（Troy et al.,2010），比如，认为自己最终经受住了而感到“欣慰”，因为接受了这就是一种“不幸运”而停止自责。心理学家指出，认知重评是“控制和管理艰难情境”最有效的策略（Castro, et al., 2016）。</p>
+<p> <strong>3.有意义的反刍（deliberate rumination）</strong></p>
+<p> 他们也会进入对创伤的反刍思考，但不同的是，他们更加专注于“对问题解决、意义寻求的回忆与思考”之中（Martin &amp; Tesser, 1996）。</p>
+<p> 也就是说，比起自责，他们会在反复思考的过程中，去看到自己曾为解决困难做出过哪些尝试，哪些是奏效的（可以被之后继续使用的）——这可以帮助他们为今后的人生挑战做好准备，也有利于他们积极地去理解创伤。</p>
+<p> 不同于其他人，Zoellner和Maercker（2006）发现，以这三个步骤经历创伤的这一类人，更有可能在尝试与创伤抗争的过程中幸存下来，并在这个过程中获得积极的成长——获得属于自己的黑色生命力。</p>
+<p> 正如前文所说，并不是所有人都会以同样的方式经历创伤，但为什么不同的人会以不同的方式经历创伤呢？</p>
+<p> 首先，这与先天因素有关，我们的基因影响着我们应对创伤和负面情绪的方式。</p>
+<p> 其次，在成长的过程中，一个人是否曾经在他人的身上见到过“黑色生命力”，也会影响Ta在面对创伤时的反应。这就是榜样的力量。</p>
+<p> 换句话说，黑色生命力，也是极具感染力的，它会给周围人带来面对创伤的勇气。</p>
+<p> 不仅如此，自身经验的积累，也对人们经历创伤的方式有影响。如果在早年经历的创伤中，我们曾经偶然尝试过“认知重评”，并感受到积极应对创伤的好处，我们就更可能在之后遭遇创伤时，以这样的方式尝试与创伤抗争。也可以说，黑色生命力，是一种可以持续累积的力量，是一种良性循环。</p>
+<p>越来越多的研究发现，糟糕的经历本身并不决定一个人的未来。</p>
+<p> 发展心理学家Werner也曾经对698个孩子进行了长达32年的跟踪研究。在这个过程中她发现，那些经历过创伤与痛苦的孩子中，有一部分成长为了“有能力、自信和充满关爱”的人，并取得了学业、家庭和社会意义上的成功。</p>
+<p> 在对这群孩子人格特质的进一步研究中，Werner发现，这些孩子并没有什么特殊的天赋。重要的是，这些孩子远比一般人更相信：自己的未来更多是由自己掌控的。他们首先深知自己的不幸，承认自己的不幸，随后持续地与这些不幸抗争，并认真地活下去，最终在这个过程中获得了平静和力量。</p>
+<p> 是否遭遇创伤，任何人都无从选择。但我们的的确确可以选择度过它、穿越它去看到自己生命的另一种力量。</p>
+<p> 有人说，曾经经历过的创伤会形成一道伤疤。这可能是真的，但一道伤疤，同时也是一枚勋章。它提醒着你曾经有过的抗争、取得的胜利。</p>
+<p> 对于有些人，活着的感觉，像一座山峰连着一座山峰，一场战役连着一场战役。似乎比一般人更难，有时觉得看不到尽头和希望。但如果你停下来看看自己，你会发现这些攀登和战斗的过程，已经在你身上留下了“好的结果”。</p>
+<p> 拥有黑色生命力的你，将越来越在找到幸福的路上，变得不可（被命运）阻挡。</p>
+<p> 加油吧少年少女</p>
+<p>References:</p>
+<p>Arous, A. et al., (2016). The associationbetween childhood trauma and empathy in patients with stable schizophrenia.European Psychiatry, 33, 114-289.</p>
+<p>Castro, M. C., Martínez, M. A., &amp;Abarca, X. F. (2016). Deliberate Rumination and Positive Reappraisal as SerialMediators Between Life Impact and Posttraumatic Growth in Victims of StateTerrorism in Chile (1973-1990). Journal of Interpersonal Violence, 1-17.</p>
+<p>Martin, L. L., &amp; Tesser, A. (1996).Clarifying our thoughts. Ruminative thought: Advances in social cognition, 9,189-209.</p>
+<p>Tedeschi, R. G., &amp; Calhoun, L. G.(2004). “ Posttraumatic growth: Conceptual foundations and empiricalevidence”. Psychological inquiry, 15(1), 1-18.</p>
+<p>Troy, A.S., Wihelm, F.H., Shallcross, A.J.,&amp; Mauss, I.B. (2010). Seeing the silver lining: Cognitive reappraisalability moderates the relationship between stress and depressive symptoms.Emotion, 10(6), 783-795.</p>
+<p>Werner, E. E., &amp; Smith, R.S. (1982). Vulnerablebut invincible: A longitudinal study of resilient children and youth. New York:McGraw Hill.</p>
+<p>Zoellner, T., &amp; Maercker, A. (2006).Posttraumatic growth in clinical psychology: A critical review and introductionof a two component model. Clinical psychology review, 26(5), 626-653.</p>
+
+            </div>
+            <hr/>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">转载请注明: </span>
+                    <a href="https://volcanochloe.github.io" class="b-link-green">火山口有簇新枝誒</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2018/07/02/hei-se-sheng-ming-li/" class="b-link-green">黑色生命力</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: null,
+        id: '2018-07-02T21-39-35',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="card">
+                <a href="/2018/10/13/ve-de-di-yi-ge-bo-ke-po-ke-liao/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="VE的第一个博客破壳了~">
+                        
+                        <span class="card-title">VE的第一个博客破壳了~</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary"></div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-13
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-user fa-fw"></i>
+                            Volcanochloe
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">本篇</div>
+            <div class="card">
+                <a href="/2018/07/02/hei-se-sheng-ming-li/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="黑色生命力">
+                        
+                        <span class="card-title">黑色生命力</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">已剪辑自: https://mp.weixin.qq.com/s/MbF0Y-6wU4B9IfuoRmB02Q
+
+  今年KY小姐姐们决心要有更多的烟火气，开始努力刷综艺（事业心烟火气）。结果被歌手里的张韶涵击中了。《阿刁》是今年听过最感人</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-07-02
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/孩童般郑重的生活/" class="post-category" target="_blank">
+                                    孩童般郑重的生活
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/人生荆棘/" target="_blank">
+                        <span class="chip bg-color">人生荆棘</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+    
+
+</main>
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://blinkfox.github.io/" target="_blank">Blinkfox</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 采用
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>的主题搭建.
+        </div>
+        <div class="col s12 m4 l4 social-link"><a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:chenjiayin1990@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title">搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-double-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+</body>
+</html>

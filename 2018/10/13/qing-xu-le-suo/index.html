@@ -1,0 +1,682 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+    <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content=", hexo-theme-matery">
+    <meta name="description" content="生活札记 知识输出 对万物万事的思考记录 技能分享 寻觅火树银花">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>火山口有簇新枝誒</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+</head>
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/volcanochloe.ico" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">火山口有簇新枝誒</span>
+                    </a>
+                </div>
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>Index</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>Tags</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>Categories</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>Archives</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>About</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/volcanochloe.ico" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">火山口有簇新枝誒</div>
+        <div class="logo-desc">
+            
+            生活札记 知识输出 对万物万事的思考记录 技能分享 寻觅火树银花
+            
+        </div>
+    </div>
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                Index
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                Tags
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                Categories
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                Archives
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                About
+            </a>
+        </li>
+        
+        
+    </ul>
+
+    <div class="social-link"><a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:chenjiayin1990@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+</div>
+
+            </div>
+        </div>
+
+        
+    </nav>
+</header>
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        情绪勒索
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="container content">
+
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            
+            <div class="article-tag">
+                
+                <a href="/tags/情绪/" target="_blank">
+                    <span class="chip bg-color">情绪</span>
+                </a>
+                
+                <a href="/tags/亲密关系/" target="_blank">
+                    <span class="chip bg-color">亲密关系</span>
+                </a>
+                
+            </div>
+            
+            <div class="post-info">
+                
+                <span class="post-cate">
+                    <i class="fa fa-bookmark fa-fw icon-category"></i>
+                    
+                    <a href="/categories/狭义心理学/" class="post-category" target="_blank">
+                        狭义心理学
+                    </a>
+                    
+                </span>
+                
+
+                <span class="post-date">
+                    <i class="fa fa-clock-o fa-fw"></i>2018-10-13
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><img src="file:///C:/Users/94537/AppData/Local/Packages/Microsoft.Office.OneNote_8wekyb3d8bbwe/TempState/msohtmlclip/clip_image002.jpg" alt="那 些 重 要 的 人  往 往 只 要 一 句 話  就 能 麴 左 右 你 的 情 绪 "></p>
+<p>在感情、工作或家庭里，你有没有“不想做，但还是勉强做”的经验？</p>
+<p>有没有谁一直压榨你，你却又因为害怕不敢吭声？这就是 Susan Forward（2004）[2]所说的“情绪勒索”（Emotional blackmail）指的是有些时候我们为了维系与重要的人的关系，为了不想要自己被贬低、为了降低焦虑，会重复被迫去做一些自己不想做的事情。</p>
+<p>很多心灵成长书籍会教你“画清界线”，但划清界线看起来容易，在我们的文化当中做起来却相对困难。让我们看看下面的例子：</p>
+<p>妈妈说：“没关系，你可以不要回来啊！”</p>
+<p>婆婆说：“你真的很自私，怎么都只想到你自己？”</p>
+<p>老公说：“叫你帮我做这么一点点事而已，你也要叫叫叫，我真是看错你了，当初结婚我还以为你是个体贴的女人⋯⋯”（主妇团OS：谁规定老婆就一定要体贴？）</p>
+<p>老板说：“我因为看好你才把这份工作交给你的，你不想做没关系呀，后面还排一堆人等着要做。”于是你就接着做了。（其他的同事表示欣慰）</p>
+<p><strong>那些对你重要的人，往往只要一句话，就能够左右你的情绪。</strong></p>
+<p>在我们的文化里面，情绪勒索似乎是一种天赋技能（这样可以算是华人之光吗？ ），生下来好像就会了，它的好处是让我们人与人之间的关系更紧密，坏处是，我们在遗失了与家人、朋友、情人之间的界线的同时，也迷失了自己。</p>
+<p><strong>为什么你总是无法拒绝别人？</strong></p>
+<p>为什么我们没有办法拒绝别人呢？因为我们重视这段关系大于自己，因为我们把焦点放在对方的需要和情绪上面，而忽略了自己的情绪。当你使用“不拒绝”这个技能的时候，为了减低伤害（感觉很像是线上游戏的比喻），连带启动“合理化”的 buff，告诉自己： </p>
+<p>• 媳妇本来就应该听婆婆的话</p>
+<p>• 我才刚进公司，新人多做一点是应该的</p>
+<p>• 不孝有叁，无后为大⋯⋯</p>
+<p>如果从杨国枢（2005）本土心理学的角度来看，当你登入游戏选择“华人”这个种族创立角色之后，我们这个种族的天赋就是：<strong>在意别人</strong>，尤其是那些和你很亲近的人。</p>
+<p>我们的文化里面还有一个自带技能，就是<strong>说反话</strong>。《情绪勒索》书里面曾提到一个例子：“把孩子养这么大，真是孝顺，供他吃穿念名校，让他不用担心生活，结果这样回报我们。”</p>
+<p><strong>情绪勒索涉及六个重要的特征</strong></p>
+<ol>
+<li><p>勒索者提出“要求”（demand） </p>
+</li>
+<li><p>被勒索者想要“抵抗”（resistance） </p>
+</li>
+<li><p>勒索者让被勒索者感到“压力”（pressure）</p>
+</li>
+<li><p>如果被勒索者没有接受，或者是反驳，勒索者持续“威胁”（threat），例如用金钱、关系的破裂等等让被勒索者不得不就范。 </p>
+</li>
+<li><p>被勒索者“顺从”（compliance），于是看起来双方的焦虑好像解决了，但其实是被勒索者“被摸头了”。</p>
+</li>
+<li><p>勒索者食髓知味，于是下一次又“旧事重演”（repetition）。</p>
+</li>
+</ol>
+<p><strong>这个循环当中，有两个重要的特征——</strong></p>
+<ul>
+<li>如果你是那个被勒索的人，请记得：一个铜板不会响两个铜板小叮当 ，只有在你点头同意的时候，这个循环才会形成。换句话说，只要你坚决的拒绝，他的戏就演不下去了。</li>
+<li>你一开始抵抗的时候，他会发现“咦？奇怪，为什么过去的方式不管用了？”，所以一定会“继续下猛药”，倘若你没有坚持，很快又会被他拉回那个圈圈里面，而且他们往往知道你的痛点。</li>
+</ul>
+<p>各！位！观！众！江！江！江！江！这就是江湖上盛传的情绪勒索，勒索者会持续用下面叁种方式来达到他的目的。</p>
+<ol>
+<li><p>贬低你的自我价值感：“我以为你是很聪明的人⋯⋯”技能效果：施放后，对手产生自我怀疑、担忧被淘汰、觉得自己不好等情绪效果持续数分钟到数天不等。攻击效果随“两人关系”深度而增加。</p>
+</li>
+<li><p>增加你的罪恶感：“反正你从来没有重视过。”技能效果：施放后，对手觉得罪恶、一定机率他会把你的错当成他的错进而接受你的请求或帮你做事。效果随对手的“责任感”等级增加。</p>
+</li>
+<li><p>挑战你的安全感：“没关系我也可以去找别的女人⋯⋯”技能效果：施放后，对手担忧会被遗弃或不爱，产生“害怕关系瓦解”的情绪。对手身上若有“低自尊”或“患得患失”的 Buff，将追加 2 倍伤害。当他的目的没有办法达成的时候，他就会用一些语言来威胁你，然后让你不知不觉地、乖乖就范。</p>
+</li>
+</ol>
+<p>【重要注解】此叁阶段是由周慕姿《情绪勒索》所整理而成，对应于 Susan 早期理论提出的“Fear, Obligation, Guilt，简称 FOG（迷雾）”，有些差异与相同的部分，不过叁言两语说不清楚，有兴趣的人可以参考，印象中图书馆可以借得到。不过满厚喔，有点硬。</p>
+<p><strong>什么样的人会变成被勒索者／勒索者？基本上，有几种人会变成被勒索者：</strong></p>
+<ol>
+<li><p>一直想当好人</p>
+</li>
+<li><p>习惯自我怀疑</p>
+</li>
+<li><p>过度在乎别人的感受</p>
+</li>
+<li><p>希望得到别人的肯定</p>
+</li>
+<li><p>过度孝顺</p>
+</li>
+<li><p>过度遵从权威</p>
+</li>
+</ol>
+<p>表面上看起来是六种人，实际上只有一种人——<strong>就是对自己没有自信的人</strong>。当你不够爱自己、不够重视自己的感受、总是害怕会失去关系、失去别人的信赖、怕别人会讨厌你，就很容易被勒索走。但有趣的是，看起来你这么努力希望换到的是这段关系，希望可以换到对方看重你、爱你，殊不知长期被勒索的结果，你换到的不是爱，而是害怕与伤害。</p>
+<p><strong>那么，什么样的人会变成勒索者呢？</strong></p>
+<p>其实，<strong>他们也是对自己没有自信的人</strong>，或者在这段关系当中缺乏安全感的人。只是，勒索者比起被勒索者还有一个厉害的技能，就是把自己的感受“投射”（projection） 到对方的身上，很巧妙地让被勒索者认为“对啊，好像都是我害的”。</p>
+<p>他们因为觉得自己不值得被爱、怕会失去这段关系，所以用一些威胁的方式，想要绑住两个人。</p>
+<p>两个缺乏安全感的人，同样不重视自己的感受，不小心把对方的感受当作自己的责任（被勒索者）、或把自己的感受当作对方的责任（勒索者），就形成了一种“病态性共同依赖”（co-dependence）。彼此都害怕失去爱，却又互相伤害。</p>
+<p><strong>那该怎么办呢？</strong></p>
+<p>下面叁个步骤是周慕姿（2017）[1] 认为很困难，但却又是必经的过程：</p>
+<ol>
+<li><p>停——不要太快回应，当对方在勒索你，或是你在勒索对方的时候，先停下来，看看发生了什么事。以前面的例子来说，当对方找不到你，叫你一分钟之内出现的时候，你可以问自己一个问题：现在他在干嘛？我真的有可能一分钟之内出现在他面前吗？如果我匆忙地在叁分钟赶到他前面，他会说什么样的话？</p>
+<p>如果是家人或是上司的要求，你也可以给自己一段时间，不要太快做出回应，看看是什么样的“剧本”，正在操控这段互动。一个实用的技巧是“跳针”，当对方持续的用一些话来戳你的时候，你只要回复“好的我想一想”，不管他怎么说你都是讲这句话，把它想象成一种防护罩。</p>
+</li>
+<li><p>看——不论是勒索或是被勒索的人，往往都是不在乎自己的感受的人，当你可以先看看自己的感受是什么，以及安抚自己的焦虑和罪恶感，有些时候甚至可以离开现场，渐渐就可以建立起两个人之间的情绪界线。</p>
+<p>在上面的例子当中，你可能可以问自己：他“每次”都这样，你的感觉是什么？你真的值得被这样对待吗？他说这些话的时候，是不是把他的焦虑和情绪“丢”到你的身上？</p>
+</li>
+<li><p>应——当对方情绪比较和缓的时候，你可以回到现场，然后做出比较恰当的因应。有的人还蛮有脑的，在冷静的时候你可以跟他好好说，但如果他并不是那个可以好好讨论的人，或者是他已经吃死死你吃很久了，那么你只要持续做到前面两个步骤就可以了。</p>
+<p>为什么呢？还记得前面的讨论吗，既然是一个循环，当你这边被切断、他无法再勒索你的时候，你每次停下来，他就会受到挫折，而你继续坚持，他就“不得不”改变和你相处的方式。</p>
+</li>
+</ol>
+<p>如果无法一步登天，你可以先练习“停”，“停”的叁个小技巧分别是 ：跳针唱机、暂停钮和翻译蒟箬。或是你可以设定：</p>
+<ul>
+<li>“把手张开”＝翻译蒟箬</li>
+<li>“握拳”＝暂停钮</li>
+<li>“弹手指“＝跳针唱机</li>
+</ul>
+<p>毕竟不是每个人天天都会在口袋放橡皮擦，但是你不可能不带“手”出门。</p>
+<p>做一阵子之后接着做“停”、“看”，感受一下发生了什么，你的感觉是什么。如果连你自己都不重视自己的感受，别人来践踏你也只是刚好而已。最后可以进一步做出因“应”，尝试跟他沟通。当然不可能一次搞定，无法的话再退回停看、停看练习。</p>
+<p><strong>“因为害怕而持续让步，换到的只是暂时的焦虑解除，与往后更多的害怕。但并不是爱。</strong>”慕姿说。</p>
+<p>两个人的关系，本来就不应该只有一个人的声音。如果你一直以来都让爱情／亲情／工作等等人际关系绑架你的人生，或许你该思考的并不是为什么自己总是遇到这样的人，而是你内心有什么样的恐惧，让自己变成一个有委屈，却不敢说出来的人？</p>
+<p>最后附上先前疯传的情绪结界：</p>
+<p>真的不行的时候，就放魔法吧！下面是慕姿在书中对自己暖心的鼓励话语，去！去！武器走！咒语：“你或许可以用很糟糕的态度对我，但我不需要忍受，也不需要被影响。因为你的情绪是你的责任；而我的情绪，当然也是我自己的责任。”</p>
+<p>杨国枢老师有关文化与「默会之知」的论文，可参阅此篇《心理学研究的本土契合性及相关议题》: <a href="http://www3.nccu.edu.tw/~mcli/news/23th.pdf" target="_blank" rel="noopener">http://www3.nccu.edu.tw/~mcli/news/23th.pdf</a></p>
+<p>本文由海苔熊 (<a href="https://www.facebook.com/Haitaibear/" target="_blank" rel="noopener">https://www.facebook.com/Haitaibear/</a> ) 授权转载，原文刊载於此: <a href="https://www.facebook.com/Haitaibear/photos/a.734633980032806.1073742088.113742678788609/734634063366131/?type=3" target="_blank" rel="noopener">https://www.facebook.com/Haitaibear/photos/a.734633980032806.1073742088.113742678788609/734634063366131/?type=3</a> </p>
+
+            </div>
+            <hr/>
+
+            
+            <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.88rem;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff;
+        background-color: #22AB38;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff;
+        background-color: #019FE8;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a class="reward-link btn-floating btn-large waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close"><i class="fa fa-close"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs">
+                        <li class="tab wechat-tab waves-effect waves-light"><a class="active" href="#wechat">微信</a></li>
+                        <li class="tab alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                    </ul>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.jpg" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('#reward .reward-link').on('click', function () {
+            $('#rewardModal').openModal();
+        });
+
+        $('#rewardModal .close').on('click', function () {
+            $('#rewardModal').closeModal();
+        });
+    });
+</script>
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">转载请注明: </span>
+                    <a href="https://volcanochloe.github.io" class="b-link-green">火山口有簇新枝誒</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2018/10/13/qing-xu-le-suo/" class="b-link-green">情绪勒索</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+        <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
+<link rel="stylesheet" href="/css/my-gitalk.css">
+
+<div class="card gitalk-card" data-aos="fade-up">
+    <div id="gitalk-container" class="card-content"></div>
+</div>
+
+<script src="/libs/gitalk/gitalk.min.js"></script>
+<script>
+    let gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: null,
+        id: '2018-10-13T22-10-44',
+        distractionFreeMode: false  // Facebook-like distraction free mode
+    });
+
+    gitalk.render('gitalk-container');
+</script>
+    
+
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">上一篇</div>
+            <div class="card">
+                <a href="/2018/10/13/tittytainment/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="Tittytainment">
+                        
+                        <span class="card-title">Tittytainment</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">
+有句话很多人不敢讲，今天我来告诉你： 
+在人生的前20年，是耽误不起1年，哪怕半年时间的。因为这个阶段所有人都在同一轨道竞速，差了一点点很可能以后要用半辈子去弥补。
+  01
+到底是什么决定了一辈子的成就高低？
+很多人都爱人云亦云地说什么</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-13
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/会思考的芦苇/" class="post-category" target="_blank">
+                                    会思考的芦苇
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/社会现象/" target="_blank">
+                        <span class="chip bg-color">社会现象</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">下一篇</div>
+            <div class="card">
+                <a href="/2018/10/13/qing-xu-gan-zhi-yu-ying-dui/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="情绪感知与应对">
+                        
+                        <span class="card-title">情绪感知与应对</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">情绪感知
+
+Emotion：我在什么情绪之中？什么情绪？强烈程度打几分？
+比如我现在的情绪是焦虑，大概有8分。仔细体会，还有点失落。觉得做这个没意思，浪费时间。6分。
+
+Event：因为发生了什么事？
+尝试真实的描述发生的事情，尽量客观和真</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-13
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/孩童般郑重的生活/" class="post-category" target="_blank">
+                                    孩童般郑重的生活
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/情绪/" target="_blank">
+                        <span class="chip bg-color">情绪</span>
+                    </a>
+                    
+                    <a href="/tags/深入问题/" target="_blank">
+                        <span class="chip bg-color">深入问题</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+    
+
+</main>
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://blinkfox.github.io/" target="_blank">Blinkfox</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 采用
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>的主题搭建.
+        </div>
+        <div class="col s12 m4 l4 social-link"><a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+    <i class="fa fa-github"></i>
+</a>
+<a href="mailto:chenjiayin1990@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+    <i class="fa fa-envelope-open"></i>
+</a>
+<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
+    <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title">搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input" autofocus="">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-double-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+</body>
+</html>
