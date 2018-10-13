@@ -185,13 +185,6 @@
     </nav>
 </header>
 
-<style type="text/css">
-    /* don't remove. */
-    .index-cover {
-        height: 75vh;
-    }
-</style>
-
 <div class="bg-cover index-cover about-cover" style="background-image: url('/medias/cover.jpg')">
     <div class="container">
         <div class="row">
@@ -212,23 +205,6 @@
             </div>
         </div>
         
-        <div class="cover-social-link">
-            <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
-    <i class="fa fa-github"></i>
-</a>
-<a href="mailto:chenjiayin1990@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
-    <i class="fa fa-envelope-open"></i>
-</a>
-<a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
-    <i class="fa fa-qq"></i>
-</a>
-
-<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
-    <i class="fa fa-rss"></i>
-</a>
-
-        </div>
-        
     </div>
 </div>
 
@@ -240,63 +216,38 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
 <main class="content">
 
     
-    <div class="container notice">
-        <div class="card">
-            <div class="card-content">
-                <i class="fa fa-volume-up fa-lg fa-fw text-color"></i>我想在这个信息爆炸的时代，这是平凡而独特的一隅，陌生人谢谢你的到来。
+
+<div id="category-cloud" class="container chip-container">
+    <div class="card">
+        <div class="card-content">
+            <div class="tag-title center-align">文章分类</div>
+            <div class="tag-chips">
+                
+                
+                
+                <a href="/categories/会思考的芦苇/" title="会思考的芦苇: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            style="background-color: #F9EBEA;">会思考的芦苇
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
             </div>
         </div>
     </div>
-    
-
-    
-    
-
-
+</div>
 
     
 
-    
-
-    <!-- 所有文章卡片 -->
     <article id="articles" class="container articles">
-        <div class="row article-row">
+        <div class="row tags-posts">
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/10/13/ren-you-san-yang-dong-xi-shi-wu-fa-yin-man-de/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="人有三样东西是无法隐瞒的">
-                            
-                            <span class="card-title">人有三样东西是无法隐瞒的</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary"></div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-13
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                Volcanochloe
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
                     <a href="/2018/10/13/chen-guan-xi-showstudio-cai-fang-50min-ban-ben/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             
                             <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="陈冠希showstudio采访50min版本">
@@ -304,7 +255,6 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                             <span class="card-title">陈冠希showstudio采访50min版本</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
                         <div class="summary">• HIPHOP文化给了他一些观念启迪，以及对于童年的一种情怀载体。里面关于女性的话题，其实确实有原思维定势在里面，但我们应该有自己的思维模</div>
                         <div class="publish-info">
@@ -336,10 +286,10 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 </div>
             </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
+            <div class="article tag-post col s12 m6 l4" data-aos="zoom-in">
                 <div class="card">
                     <a href="/2018/10/13/chen-guan-xi-2017-niu-yue-da-xue-yan-jiang/">
-                        <div class="card-image">
+                        <div class="card-image tag-image">
                             
                             
                             <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="陈冠希2017纽约大学演讲">
@@ -347,7 +297,6 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                             <span class="card-title">陈冠希2017纽约大学演讲</span>
                         </div>
                     </a>
-
                     <div class="card-content article-content">
                         <div class="summary">
 “电影就是电影，不应该因为是中国电影就要降低标准。”也就是以更高的标准来要求自己的产品或者音乐电影，更因为中国是将来的superpower</div>
@@ -380,43 +329,9 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 </div>
             </div>
             
-            <div class="article col s12 m6 l4" data-aos="zoom-in">
-                <div class="card">
-                    <a href="/2018/10/13/ve-de-di-yi-ge-bo-ke-po-ke-liao/">
-                        <div class="card-image">
-                            
-                            
-                            <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="VE的第一个博客破壳了~">
-                            
-                            <span class="card-title">VE的第一个博客破壳了~</span>
-                        </div>
-                    </a>
-
-                    <div class="card-content article-content">
-                        <div class="summary"></div>
-                        <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-10-13
-                            </span>
-                            <span class="publish-author">
-                                
-                                <i class="fa fa-user fa-fw"></i>
-                                Volcanochloe
-                                
-                            </span>
-                        </div>
-                    </div>
-
-                    
-                </div>
-            </div>
-            
         </div>
     </article>
-
 </main>
-
-
 
 
 <footer class="page-footer bg-color">
