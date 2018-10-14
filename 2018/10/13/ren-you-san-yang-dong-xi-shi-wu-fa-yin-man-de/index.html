@@ -513,12 +513,12 @@ What if l… ?</div>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/人生荆棘/" target="_blank">
-                        <span class="chip bg-color">人生荆棘</span>
-                    </a>
-                    
                     <a href="/tags/深入问题/" target="_blank">
                         <span class="chip bg-color">深入问题</span>
+                    </a>
+                    
+                    <a href="/tags/人生荆棘/" target="_blank">
+                        <span class="chip bg-color">人生荆棘</span>
                     </a>
                     
                     <a href="/tags/定量化/" target="_blank">
@@ -588,6 +588,27 @@ What if l… ?</div>
     </div>
 </article>
 </div>
+
+ <!--评论显示区，请插入合适的位置-->
+    <div class="comment"></div>
+
+    <!--载入js，在</body>之前插入即可-->
+    <!--Leancloud 操作库:-->
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <!--Valine 的核心代码库-->
+    <script src="./dist/Valine.min.js"></script>
+    <script>
+        new Valine({
+            // AV 对象来自上面引入av-min.js(老司机们不要开车➳♡゛扎心了老铁)
+            av: AV, 
+            el: '.comment',
+            emoticon_url: 'https://cloud.panjunwen.com/alu',
+            emoticon_list: ["吐.png","期待.png","高兴.png","吐血倒地.png","哭泣.png","欢呼.png"],
+            app_id: 'tc2MU04JtjzfHDsXexGF25je-gzGzoHsz', // 这里填写上面得到的APP ID
+            app_key: 'feUYooTyOc1k9WHmU2dvf6Ak', // 这里填写上面得到的APP KEY
+            placeholder: 'Laiyakuaihuoya', // 留言框占位提示文字
+        });
+    </script>
     </div>
     <div class="col l3 hide-on-med-and-down">
         <div class="toc-widget">
